@@ -20,4 +20,6 @@ Route::get('/', function () {
 Route::get('/foodAccomodation', [App\Http\Controllers\FoodandAccomodation::class, 'index'])->name('foodAccomodation');
 Route::get('/gallery', [App\Http\Controllers\Gallery::class, 'index'])->name('gallery');
 Route::get('/activities', [App\Http\Controllers\Activities::class, 'index'])->name('activities');
+Route::get('/about-us', [App\Http\Controllers\AboutUs::class, 'index'])->name('about-us');
+
 
