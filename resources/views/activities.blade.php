@@ -154,7 +154,7 @@
                         <!-- <p style="text-align: justify;">Step into the life of a real Nepali family. Do the daily farm activities along side us such as planting, harvesting, storing and livestock. Best way to not feel like a tourist and experience everyday life.</p> -->
                     </div>
                 </div>
-
+           
                 <div class="col-md-4">
                     <div class="single-defination">
                         <h3 class="mb-20" style="margin-bottom: 0px;">Yoga & Meditation</h3>

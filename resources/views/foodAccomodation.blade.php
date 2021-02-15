@@ -54,70 +54,56 @@
 <!--================ End of Accomodation Area  =================-->
 
 <!--================Booking Tabel Area =================-->
-<div id="bookthisroom">
-    <section class="hotel_booking_area">
+<div id="booking">
+    <div class="hotel_booking_area position">
         <div class="container">
-           <form action="booking.php" method="POST">
-            <div class="row hotel_booking_table">
-                <div class="col-md-3">
-                    <h2>Book<br> Your Room</h2>
-                </div>
-                <div class="col-md-9">
-                    <div class="boking_table">
-                        <div class="row">
-                         <div class="col-md-4">
-                            <div class="book_tabel_item">
-                                <div class="form-group">
-                                    <div class='input-group date'>
-                                        <input type='date' name="checkin" class="form-control" placeholder="Check in"/>
+            <form action="" method="">
+                <div class="hotel_booking_table">
+                    <div class="col-md-3">
+                        <h2>Book<br> Your Room</h2>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="boking_table">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="book_tabel_item">
+                                        <div class="form-group">
+                                            <small>Checkin Date</small>
+                                          <input type="date" class="form-control">
+                                        </div> <br>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" placeholder="Num of Adult Guests">
+                                        </div>
+                                  </div>
+                                 </div>
+                                <div class="col-md-4">
+                                    <div class="book_tabel_item">
+                                        <div class="form-group">
+                                            <small>Checkout Date</small>
+                                            <input type="date" class="form-control">
+                                        </div> <br>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" placeholder="Num of Child Guests">
+                                        </div>
+                                  </div>
+                                 </div>
+                                <div class="col-md-4">
+                                    <div class="book_tabel_item">
+                                        <div class="form-group">
+                                            <small>We won't share your details</small>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required="">
+                                        </div>
+                                    <br>
+                                        <input type="submit" name="submit" value="Book Now" class="book_now_btn button_hover">
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <div class='input-group'>
-                                        <input type='date' name="checkout" class="form-control" placeholder="Check out"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="book_tabel_item">
-                                <div class="input-group">
-                                    <select class="wide" name="adult">
-                                        <option value="None">Adult</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                    </select>
-                                </div>
-
-                                <div class="input-group">
-                                    <select class="wide" name="child">
-                                        <option value="None">Child</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="book_tabel_item">
-                                <div class="input-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required>
-                                </div>
-                                <!-- <a class="book_now_btn button_hover" href="#">Book Now</a> -->
-                                <input type="submit" name="submit" value="Book Now" class="book_now_btn button_hover">
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </form>
+    </div>
 </div>
-</section>
 </div>
 <!--================End of Booking Tabel Area  =================-->
 
