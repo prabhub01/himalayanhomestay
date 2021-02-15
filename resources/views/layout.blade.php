@@ -37,7 +37,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{ route('gallery') }}">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('activities') }}">Activities</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div> 
             </nav>
