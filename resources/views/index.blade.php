@@ -27,7 +27,7 @@
                                     <div class="book_tabel_item">
                                         <div class="form-group">
                                             <small>Checkin Date</small>
-                                          <input type="date" class="form-control">
+                                          <input type="date" min="{{ date('Y-m-d') }}" class="form-control">
                                         </div> <br>
                                         <div class="form-group">
                                             <input type="number" class="form-control" placeholder="Num of Adult Guests">
@@ -38,7 +38,7 @@
                                     <div class="book_tabel_item">
                                         <div class="form-group">
                                             <small>Checkout Date</small>
-                                            <input type="date" class="form-control">
+                                            <input type="date" min="{{ date('Y-m-d') }}" class="form-control">
                                         </div> <br>
                                         <div class="form-group">
                                             <input type="number" class="form-control" placeholder="Num of Child Guests">
@@ -82,7 +82,7 @@
                 <div class="accomodation_item text-center">
                     <div class="hotel_img">
                         <img src="{{ asset('images/room1.jpg') }}" alt="">
-                        <a href="accomodation.php#bookthisroom" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="" class="btn theme_btn button_hover">Book</a>
                     </div>
                     <h4 class="sec_h4">Langtang</h4>
                      <h5><i class="fa fa-user" aria-hidden="true"></i> $20<small>/night</small> <small>(including meals)</small></h5>
@@ -94,7 +94,7 @@
                 <div class="accomodation_item text-center">
                     <div class="hotel_img">
                         <img src="{{ asset('images/room2.jpg') }}" alt="">
-                        <a href="accomodation.php#bookthisroom" class="btn theme_btn button_hover">Book Now</a>
+                        <a href="" class="btn theme_btn button_hover">Book</a>
                     </div>
                     <h4 class="sec_h4">Chandeshwori</h4>
                     <h5><i class="fa fa-user" aria-hidden="true"></i> $20<small>/night</small> <small>(including meals)</small></h5>

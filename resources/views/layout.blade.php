@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-    
+   
+   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+   <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+  
 </head>
 <body>
     <header class="header_area">
@@ -55,12 +55,12 @@
           <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
               <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/himalayanhomestaynepal" target="_blank" style="color: #fff;">
-                <i class="fa fa-facebook" style="font-size: 40px;"> </i>
+                <i id="i" class="fa fa-facebook" style="font-size: 40px;"> </i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn-floating btn-gplus mx-1" href="https://www.instagram.com" target="_blank" style="color: #fff;">
-                <i class="fa fa-instagram" style="font-size: 40px;"> </i>
+                <i id="i" class="fa fa-instagram" style="font-size: 40px;"> </i>
               </a>
             </li>
           </ul>
@@ -76,6 +76,7 @@
         <!-- Copyright -->
     
       </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="{{ asset('js/custom.js') }}"></script>
 </body>
 </html>
