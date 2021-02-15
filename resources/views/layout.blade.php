@@ -34,8 +34,8 @@
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li> 
                         <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">Food & Accomodation</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('gallery') }}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('activities') }}">Activities</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">About us</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('foodAccomodation') }}">Contact</a></li>
                     </ul>
